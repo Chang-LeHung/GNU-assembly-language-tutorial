@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "stdio.h": "c",
+    "emmintrin.h": "c",
+    "sysexits.h": "c",
+    "types.h": "c",
+    "stdatomic.h": "c",
+    "atomic": "cpp"
+  }
+}
