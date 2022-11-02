@@ -5,6 +5,7 @@
     "sysexits.h": "c",
     "types.h": "c",
     "stdatomic.h": "c",
-    "atomic": "cpp"
+    "atomic": "cpp",
+    "assert.h": "c"
   }
 }

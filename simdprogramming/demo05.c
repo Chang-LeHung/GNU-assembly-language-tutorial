@@ -12,10 +12,14 @@ int main() {
     A[i] = i;
     B[i] = i;
     C[i] = i;
-    D[i] = i;
   }
   for(int i = 0; i < 100; i++) {
+    E[i] = A[i] + B[i] + C[i];
+  }
+
+  for(int i = 0; i < 100; i++) {
     E[i] = A[i] + B[i] + C[i] + D[i];
+    printf("%lf\n", E[i]);
   }
   return 0;
 }
